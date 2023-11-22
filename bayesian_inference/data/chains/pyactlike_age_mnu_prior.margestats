@@ -1,0 +1,10 @@
+Marginalized limits: 0.68; 0.95; 0.99
+
+parameter                                mean           sddev          lower1         upper1         limit1 lower2         upper2         limit2 lower3         upper3         limit3 
+age                                      1.3899090E+01  3.9141516E-02  1.3860032E+01  1.3938293E+01  two    1.3823427E+01  1.3976117E+01  two    1.3799447E+01  1.4001527E+01  two     age
+m_ncdm                                   1.5639650E-01  4.6394588E-02  1.0427470E-01  2.0010770E-01  two    6.5432598E-02  2.4026908E-01  two    6.0000000E-02  2.7022058E-01  >       m_\mathrm{ncdm}
+H0*                                      6.7147877E+01  5.3754267E-01  6.6610480E+01  6.7695220E+01  two    6.6100070E+01  6.8187280E+01  two    6.5716750E+01  6.8511670E+01  two     H0
+minuslogprior*                          -1.4862568E+00  5.9819114E-01 -1.9742570E+00 -1.4243926E+00  two   -2.0133448E+00 -3.4517684E-01  two   -2.0442539E+00  9.7777134E-01  two     -\log\pi
+minuslogprior__mnu_prior*               -1.6381191E+00  5.9819114E-01 -2.1261195E+00 -1.5762554E+00  two   -2.1652073E+00 -4.9703934E-01  two   -2.1961165E+00  8.2590896E-01  two     -\log\pi_\mathrm{mnu\ prior}
+chi2*                                    9.9227507E+01  1.4250941E+00  9.8085060E+01  9.9287310E+01  two    9.7965934E+01  1.0232610E+02  two    9.7907084E+01  1.0524512E+02  two     \chi^2
+chi2__pyactlike.ACTPol_lite_DR4_onlyTT*  9.9227507E+01  1.4250941E+00  9.8085060E+01  9.9287310E+01  two    9.7965934E+01  1.0232610E+02  two    9.7907084E+01  1.0524512E+02  two     \chi^2_\mathrm{pyactlike.ACTPol\ lite\ DR4\ onlyTT}

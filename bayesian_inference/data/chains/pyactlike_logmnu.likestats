@@ -1,0 +1,12 @@
+Best fit sample -log(Like) = 49.535842
+Ln(mean 1/like) = 50.878255
+mean(-Ln(like)) = 50.278181
+-Ln(mean like)  = 50.102811
+
+parameter                                bestfit        lower1         upper1         lower2         upper2
+age                                      1.4049040E+01  1.4171165E+01  0.0000000E+00  1.4235200E+01  0.0000000E+00   age
+logm_ncdm                               -6.3241033E-01 -2.4251183E-02  0.0000000E+00  2.9349739E-01  0.0000000E+00   log m_\mathrm{ncdm}
+H0*                                      6.4297400E+01  6.8327690E+01  0.0000000E+00  6.8677870E+01  0.0000000E+00   H0
+m_ncdm*                                  5.3130963E-01  9.7604051E-01  0.0000000E+00  1.3411097E+00  0.0000000E+00   m_ncdm
+chi2*                                    9.7584150E+01  9.9126724E+01  0.0000000E+00  1.0205857E+02  0.0000000E+00   \chi^2
+chi2__pyactlike.ACTPol_lite_DR4_onlyTT*  9.7584150E+01  9.9126724E+01  0.0000000E+00  1.0205857E+02  0.0000000E+00   \chi^2_\mathrm{pyactlike.ACTPol\ lite\ DR4\ onlyTT}

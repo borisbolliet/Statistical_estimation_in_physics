@@ -1,0 +1,68 @@
+likelihood:
+  pyactlike.ACTPol_lite_DR4_onlyTT:
+    stop_at_error: true
+output: /Users/boris/Documents/GitHub/Statistical_estimation_in_physics/bayesian_inference/data/chains/pyactlike_age_mnu_prior
+params:
+  H0:
+    derived: true
+  age:
+    latex: age
+    prior:
+      max: 14.3
+      min: 13.7
+    proposal: 0.1
+    ref:
+      dist: norm
+      loc: 13.8
+      scale: 0.1
+  logA:
+    latex: ln10^{10}A_s
+    value: 3.0460125
+  m_ncdm:
+    latex: m_\mathrm{ncdm}
+    prior:
+      max: 2.0
+      min: 0.06
+    proposal: 0.1502374
+    ref:
+      dist: norm
+      loc: 0.007914083
+      scale: 0.1502374
+  n_s:
+    value: 1.0107972
+  omega_b:
+    value: 0.021519356
+  omega_cdm:
+    value: 0.11681165
+  tau_reio:
+    value: 0.063418096
+  yp2:
+    value: 1.0
+prior:
+  mnu_prior: 'lambda m_ncdm: stats.norm.logpdf(m_ncdm, loc=0.15, scale=0.05)'
+sampler:
+  mcmc:
+    Rminus1_stop: 0.001
+    burn_in: 50
+    covmat: /Users/boris/Documents/GitHub/Statistical_estimation_in_physics/bayesian_inference/data/chains/../pyactlike_age_mnu_prior.covmat
+    learn_proposal: true
+    learn_proposal_Rminus1_max: 30.0
+    learn_proposal_Rminus1_max_early: 80.0
+    max_tries: 5000
+    proposal_scale: 1.9
+theory:
+  classy_szfast.classy_sz.classy_sz:
+    extra_args:
+      N_ncdm: 1
+      N_ur: 2.0308
+      cosmo_model: 1
+      output: tCl
+      skip_background_and_thermo: 0
+      skip_chi: 1
+      skip_hubble: 1
+      skip_pkl: 1
+      skip_pknl: 1
+      skip_sigma8_and_der: 1
+      skip_sigma8_at_z: 1
+    stop_at_error: true
+    use_class_sz_fast_mode: 1

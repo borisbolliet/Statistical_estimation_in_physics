@@ -1,0 +1,45 @@
+Parameter autocorrelation lengths (effective number of samples N_eff = tot weight/weight length)
+
+                                         Weight Length   Sample length           N_eff
+age                                              10.78            3.48            1204
+m_ncdm                                           11.46            3.70            1132
+H0                                               10.86            3.51            1195
+chi2                                             11.20            3.62            1159
+chi2__pyactlike.ACTPol_lite_DR4_onlyTT           11.20            3.62            1159
+
+
+mean convergence stats using remaining chains
+param sqrt(var(chain mean)/mean(chain var))
+
+age                                        0.0793  age
+m_ncdm                                     0.0746  m_\mathrm{ncdm}
+H0                                         0.0780  H0
+chi2                                       0.0775  \chi^2
+chi2__pyactlike.ACTPol_lite_DR4_onlyTT     0.0775  \chi^2_\mathrm{pyactlike.ACTPol\ lite\ DR4\ onlyTT}
+
+var(mean)/mean(var) for eigenvalues of covariance of y of orthonormalized parameters
+  1      0.00027
+  2      0.00629
+
+Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}, limit=95%:
+i.e. mean sample splitting change in the quantiles in units of the st. dev.
+
+age                                       0.1228   0.0935   0.1260 upper
+age                                       0.0501   0.0847   0.0485 lower
+m_ncdm                                    0.1034   0.0910   0.1406 upper
+m_ncdm                                    0.0184   0.0321   0.0215 lower
+H0                                        0.0453   0.0520   0.0679 upper
+H0                                        0.1177   0.0981   0.1172 lower
+chi2                                      0.4327   0.3980   0.4406 upper
+chi2                                      0.0028   0.0035   0.0034 lower
+chi2__pyactlike.ACTPol_lite_DR4_onlyTT    0.4327   0.3980   0.4406 upper
+chi2__pyactlike.ACTPol_lite_DR4_onlyTT    0.0028   0.0035   0.0034 lower
+
+Raftery&Lewis statistics
+
+chain  markov_thin  indep_thin    nburn
+   0          28          28         112
+   1          17          17          51
+   2          17          17          68
+   3          18          18          54
+
