@@ -6,6 +6,6 @@ Each sub-directory contains a slide deck and a notebook where all relevant numer
 
 Slides:
 
-- [https://docs.google.com/presentation/d/1qI5D_gbdXKw6sFQwXjDFlLQiWGQOaUXuIlDodNTAsN8/edit?usp=sharing](Bayesian Inference)
+- [Bayesian Inference](https://docs.google.com/presentation/d/1qI5D_gbdXKw6sFQwXjDFlLQiWGQOaUXuIlDodNTAsN8/edit?usp=sharing)
 
 Boris Bolliet
