@@ -1,13 +1,13 @@
 Best fit sample -log(Like) = 47.195867
-Ln(mean 1/like) = 49.082044
-mean(-Ln(like)) = 48.127496
--Ln(mean like)  = 47.857242
+Ln(mean 1/like) = 49.016872
+mean(-Ln(like)) = 48.110587
+-Ln(mean like)  = 47.847649
 
 parameter                                bestfit        lower1         upper1         lower2         upper2
-age                                      1.3896860E+01  1.3954756E+01  0.0000000E+00  1.3989921E+01 2.6955266E-314   age
-m_ncdm                                   1.5210290E-01  2.2532007E-01  0.0000000E+00  2.6939477E-01 2.6747068E-314   m_\mathrm{ncdm}
-H0*                                      6.7184860E+01  6.8018590E+01  0.0000000E+00  6.8530310E+01  0.0000000E+00   H0
-minuslogprior*                          -1.9240470E+00 -7.9030877E-01  0.0000000E+00  9.2609066E-01  0.0000000E+00   -\log\pi
-minuslogprior__mnu_prior*               -2.0759093E+00 -9.4217111E-01  0.0000000E+00  7.7422831E-01  0.0000000E+00   -\log\pi_\mathrm{mnu\ prior}
-chi2*                                    9.8239828E+01  1.0033613E+02  0.0000000E+00  1.0372527E+02  0.0000000E+00   \chi^2
-chi2__pyactlike.ACTPol_lite_DR4_onlyTT*  9.8239828E+01  1.0033613E+02  0.0000000E+00  1.0372527E+02  0.0000000E+00   \chi^2_\mathrm{pyactlike.ACTPol\ lite\ DR4\ onlyTT}
+age                                      1.3896860E+01  1.3954450E+01  0.0000000E+00  1.3989052E+01 5.2150170E-310   age
+m_ncdm                                   1.5210290E-01  2.2450335E-01  0.0000000E+00  2.6939477E-01 9.6522070E-315   m_\mathrm{ncdm}
+H0*                                      6.7184860E+01  6.8018590E+01  0.0000000E+00  6.8530310E+01 2.5566204E-314   H0
+minuslogprior*                          -1.9240470E+00 -8.1478155E-01  0.0000000E+00  9.2609066E-01 1.3883245E-321   -\log\pi
+minuslogprior__mnu_prior*               -2.0759093E+00 -9.6664389E-01  0.0000000E+00  7.7422831E-01 5.2150169E-310   -\log\pi_\mathrm{mnu\ prior}
+chi2*                                    9.8239828E+01  1.0033613E+02  0.0000000E+00  1.0368721E+02 1.4229091E-321   \chi^2
+chi2__pyactlike.ACTPol_lite_DR4_onlyTT*  9.8239828E+01  1.0033613E+02  0.0000000E+00  1.0368721E+02 2.0750757E-322   \chi^2_\mathrm{pyactlike.ACTPol\ lite\ DR4\ onlyTT}
