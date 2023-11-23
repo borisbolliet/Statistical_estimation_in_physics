@@ -4,4 +4,8 @@ This reposistory stores teaching material on statistical methods in physics, and
 
 Each sub-directory contains a slide deck and a notebook where all relevant numerical calculations are presented. 
 
+Slides:
+
+- [https://docs.google.com/presentation/d/1qI5D_gbdXKw6sFQwXjDFlLQiWGQOaUXuIlDodNTAsN8/edit?usp=sharing](Bayesian Inference)
+
 Boris Bolliet
