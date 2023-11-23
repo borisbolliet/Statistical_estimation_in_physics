@@ -1,4 +1,4 @@
-# Statistical_estimation_in_physics
+# Statistical estimation in physics
 
 This reposistory stores teaching material on statistical methods in physics, and more specifically in cosmology. 
 
